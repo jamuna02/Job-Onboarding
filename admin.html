@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> ADMIN </title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="adm.css">
+</head>
+<body class="container">
+		<img src="images/lg1.png" height="70" width="120" class="logo"></img>
+	<div class="box">
+			<h1>Admin Access</h1>
+		<form action="adm.php" method="POST">
+			
+			<input type="text" name="lname" required placeholder="USERNAME"> <!--pattern="[A-Za-z0-9]"> -->
+			<br><br>
+			<input type="password" name="lpassword" required placeholder="PASSWORD"> <!--pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" --><br>
+					
+			<button class="reg"> <span> Access </span> </button>
+					
+		</form>
+	</div>
+	<div class="img1">
+		<img src="images/adm.png" height="640" width="720"></img></div>
+</body>
+</html>

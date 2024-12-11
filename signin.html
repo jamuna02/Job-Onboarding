@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1">	
+	<title> SIGN IN </title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="sgn.css">
+
+
+</head>
+<body class="container">
+		<img src="images/lg1.png" height="70" width="120" class="logo"></img>
+		<div class="box">
+			<h1>Sign In</h1>
+		
+			<form action="sgn.php" method="POST">
+				<input type="text" name="sname" required="" placeholder="USERNAME" pattern="[A-Za-z0-9].{3,25}"> 
+				<br><br>
+				<input type="password" name="spassword" required="" placeholder="SET PASSWORD" pattern="(?=.*\d)(?=.*[a-z]).{4,}"> <br><br> <!-- (?=.*[A-Z]) -->
+				<select name="susertype" required="">
+						<option disabled selected hidden> USER TYPE </option>
+						<option value="j"> Jobseeker </option>
+						<option value="c"> Company </option>
+						
+					</select><br><br>
+				<button class="reg"> <span> REGISTER </span> </button><br><br><br>
+				<label>Already have an account?<a href="login.html"> Log In </a>
+				</label>
+		
+			</form>
+		</div>
+		<div class="img1">
+		<img src="images/sgn.jpg" height="600" width="580"></img></div>
+</body>
+
+
+</html>

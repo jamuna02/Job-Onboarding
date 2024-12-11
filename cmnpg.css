@@ -1,0 +1,146 @@
+.logo{
+	margin-top: 0.5%;
+	margin-left: 0.7%;
+}
+ul{
+	list-style-type: none;
+	margin-top: 5%;
+}
+ul li{
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Footlight MT Light;
+	line-height: 3.3em;
+	text-align: left;
+	margin-top: 2%;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+}
+ul li a:hover{
+	color: white;
+	border-bottom:ghostwhite 10px solid;
+	font-weight: bold;
+	
+}
+.container{
+	
+	
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+	border-left: #056E66 7px solid;
+	border-collapse: collapse;
+	background-color: #31ABA2;
+	margin-right: 75%;
+	margin-top: 0%;
+
+}
+.box1{
+	background-color: ghostwhite;
+	border-top: #056E66 7px solid;
+	border-bottom: #056E66 7px solid;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+	margin-top: 0.5%;
+	display: flex;
+	text-align: center;
+	line-height: 3.4em;
+	justify-content: safe flex-start;
+	border-top-left-radius: 3%;
+	border-bottom-left-radius: 3%;
+	border-collapse: collapse;
+}
+
+.home{
+	color: #056E66;
+	background-color: ghostwhite;
+	border:ghostwhite 5px solid;
+	border-right: none;
+	font-weight: bold;
+	border-top-left-radius: 20%;
+	border-bottom-left-radius: 20%;
+	padding-right: 63%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	pointer-events: none;
+}
+.exit{
+	text-decoration: none;
+	color: black;
+	float: right;
+	margin-top: -4%;
+	margin-right: 5%;	
+	padding: 5px 20px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Footlight MT Light;
+}
+.exit:hover{
+	
+	background-color: #04877D;
+	color: white;
+	border: #056E66 3px solid;
+	font-weight: bold;
+
+	
+}
+
+.pro{
+	float: right;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Gabriola;
+	width: 20%;
+	padding: 2%;
+	margin-right: 54%;
+	margin-top: -34%;
+	color: black;
+	border-top: #5B2E62 25px solid;
+	text-align: center;
+	background-color: transparent;
+	
+}
+.pro:hover{
+	background-color: #5B2E62;
+	color:ghostwhite;
+}
+.jp{
+	float: right;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Gabriola;
+	width: 21%;
+	padding: 2%;
+	margin-right: 28%;
+	margin-top: -34%;
+	color: black;
+	border-top: #8B255E 25px solid;
+	text-align: center;
+	background-color: transparent;
+}
+.jp:hover{
+	background-color: #8B255E;
+	color:ghostwhite;
+}
+.feed{
+	float: right;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Gabriola;
+	width: 20%;
+	padding: 2%;
+	margin-right: 2.5%;
+	margin-top: -34%;
+	color: black;
+	border-top: #413D6E 25px solid;
+	text-align: center;
+	background-color: transparent;
+}
+.feed:hover{
+	background-color: #413D6E;
+	color:ghostwhite;
+}
+/*#2D2865*/

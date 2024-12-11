@@ -1,0 +1,106 @@
+body{
+	background-color: transparent;
+}
+.logo{
+	opacity: 95%;
+	margin-top: 0.8%;
+	margin-left: 0.7%;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: -4%;
+	margin-right: 5%;
+}
+ul li{
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Footlight MT Light;
+
+}
+ul li a{
+	text-decoration: none;
+	color:black;
+	margin-right: 8px;
+	padding: 5px 20px;
+	/*border: 1px solid ;*/
+}
+ul li a:hover{
+	background-color: #04877D;
+	color: white;
+	border: #056E66 3px solid;
+	font-weight: bold;
+
+}
+.c1{
+	font-size: 48px;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: Baskerville Old Face;
+	margin-top: 6%;
+	margin-left: 2%;
+	letter-spacing: 0.10em;
+	line-height: 1.8em;
+	color: #056E66;
+}
+.job{
+	margin-left: 19%;
+
+}
+.sn{
+	margin-top: 1.5%;
+	margin-left: 15.5%;
+	text-align:center;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 45%;
+	padding: 18px;
+	font-size: 45px;
+	font-weight: bold; 
+	font-family: Chiller;
+	color: #056E66;
+	background-color: white;
+	width:15%;
+	border-right:#04877D 2px solid;
+	border-bottom: #04877D 9px solid;
+	border-left: #04877D 9px solid;
+	border-top: #04877D 2px solid;
+	box-shadow: 25px 0 35px -20px #04877D inset;
+}
+.sn span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sn span:after {
+  content: ' \00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  
+}
+
+.sn:hover span {
+  padding-right: 25px;
+}
+
+.sn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.sn:hover{
+  background-color: #04877D;
+  color:black;
+  border-bottom: #043A36 7px solid;
+	border-left: #043A36 7px solid;
+	border-right: #043A36 2px solid;
+	border-top: #043A36 2px solid;
+}
+.img1{
+	margin-top: -31%;
+	margin-left: 53%;
+}

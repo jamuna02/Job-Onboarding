@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1">	
+	<title> CONTACT US </title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="cont.css">
+
+
+</head>
+<body class="container">
+		<img src="images/lg1.png" height="60" width="110" class="logo"></img>
+		<header>
+			<ul>
+				<li><a href="index.html"> Home </a> </li>
+				<li><a href="about.html"> About Us </a> </li>
+				<li ><a class="con" href="#"> Contact Us </a> </li>
+				   
+			</ul>
+		</header>
+		<div class="box">
+				<p>Send us a message and <br> we'll get back to you shortly</p>
+						
+			<form action="cont.php" method="POST">
+				<input type="email" name="cemail" required placeholder="Email ( e.g; @gmail.com )" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> 
+				<br><br>
+				<input type="text" name="cname" required placeholder="Name ( e.g; abc )" pattern="[A-Za-z0-9].{4,25}"> 
+				<!--pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" --><br><br> 
+				<input type="text" name="cm" placeholder="your message ( enter text here )" pattern="[A-Za-z0-9].{4,25}" class="ta">
+			 	<!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"--> <br><br>
+				<button class="reg"> <span> Send </span> </button><br><br>
+				
+		
+			</form>
+		</div>
+		<div class="img1">
+		<img src="images/ct.png" height="550" width="650"></img></div>
+</body>
+</html>

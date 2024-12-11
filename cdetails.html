@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> COMPANY DETAILS </title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="cdt.css">
+</head>
+<body class="container">
+		<img src="images/lg1.png" height="70" width="120" class="logo"></img>
+		<h1>J-O-B MEMBER DETAILS</h1>
+	
+		<form action="cdt.php" method="POST">
+			<div class="box">
+			<br>
+			<input type="text" name="cname" required placeholder="Company Name" pattern="[A-Za-z].{4,}">  
+			<br><br>
+			<input type="text" name="cper" required placeholder="Contact Person" pattern="[A-Za-z].{4,25}">  
+			<br><br>
+			<textarea name="cadd" placeholder="Address" rows="3" pattern="regexp=^[A-Za-z-0-99999999'"></textarea><br><br>
+			<input type="text" name="ccity" required placeholder="City" pattern="[A-Za-z].{3,}"> 
+			<br><br>
+		</div>
+		<div class="box1">
+			<br><br>
+			<input type="email" name="cemail" required placeholder="E-Mail Id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br><br>	
+			<input type="tel" name="cno" required placeholder="Contact Number" pattern="[0-9]{10}" ><br><br>	
+			<input type="tel" name="cwh" required placeholder="Whatsapp Number" pattern="[0-9]{10}"> <!--pattern="[A-Za-z0-9]"> -->	<br><br>
+			<button class="reg"> <span> SUBMIT </span> </button><br><br>
+		</div>
+		<br><br>
+		</form>
+
+	
+	<div class="img1">
+		<img src="images/cd1.webp" height="560" width="560"></img></div>
+	<div class="img2">
+		<img src="images/cd2.png" height="430" width="550"></img></div>
+</body>
+</html>

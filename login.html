@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> LOG IN </title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="lgn.css">
+</head>
+
+<body class="container">
+		<img src="images/lg1.png" height="70" width="120" class="logo"></img>
+	<div class="box">
+			<h1>Log In</h1>
+		<form action="lgn.php" method="POST">
+			<select name="login" required="">
+						<option disabled selected hidden> USER TYPE </option>
+						<option value="j"> Jobseeker </option>
+						<option value="c"> Company </option>
+						
+					</select><br><br>
+			<input type="text" name="lname" required placeholder="USERNAME" > 
+			<br><br>
+			<input type="password" name="lpassword" required placeholder="PASSWORD" ><!--pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"--> <br>
+			<label class="fp"><a href="forget.html">Forget Password</a></label><br><br> 
+			
+			<button class="reg" > <span> LOG IN </span> </button><br><br><br>
+			<label>Don't have an account?<a href="signin.html"> Sign In</a></label>
+		
+		</form>
+	</div>
+	<div class="img1">
+		<img src="images/lgn.jpg" height="550" width="680"></img></div>
+</body>
+</html>

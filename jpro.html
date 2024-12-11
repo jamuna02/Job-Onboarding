@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JOB-SEEKER PROFILE</title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="jpro.css">
+</head>
+<body class="box">
+	<img src="images/lg1.png" height="70" width="110" class="logo"></img>
+	<a class="exit" href="index.html"> LOG OUT </a> 
+	<div class="box1">
+		<div class="container">
+			<br><br>
+		
+			<ul>
+			<li ><a class="home" href="#"> HOME </a> </li>
+			<li><a class="s" href="software.html" target="blank"> SOFTWARE  JOBS </a> </li>
+			<li><a class="h" href="hardware.html" target="blank"> HARDWARE  JOBS </a> </li><li><a class="g" href="gvt.html" target="blank"> GOVERNMENT  JOBS </a> </li> 
+	 		</ul>
+	
+	 	</div>
+	 		
+	 <fieldset>
+	 	<legend><h2><b>  Edit Profile  </b></h2></legend>
+	 	<form >
+	 		
+	 		<div class="box2">
+	 		<br>
+	 		<label>Name</label><br>
+	 		<input type="text" name="jname" required pattern="[A-Za-z0-9].{4,25}">  
+			<br><br>
+			<label>Address</label><br>
+			<textarea rows="4" pattern="regexp=^[A-Za-z-0-99999999'"></textarea><br><br>
+			<label>City</label><br>
+			<input type="text" name="jcity" required pattern="[A-Za-z].{3,}"> 
+			<br><br>
+			<label>E-Mail Id</label><br>
+			<input type="email" name="jemail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br><br>	
+			</div>
+
+			<div class="box3"> 
+				<br>
+			<label>Phone Number</label><br>
+			<input type="tel" name="jno" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{10}" ><br><br>
+			<label>Whatsapp Number</label><br>	
+			<input type="tel" name="jwh" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{10}"> <!--pattern="[A-Za-z0-9]"> -->	<br><br>
+			<label>Whatsapp Number</label><br>
+			<input type="tel" name="jwh" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{10}"> <!--pattern="[A-Za-z0-9]"> -->	<br><br>
+			<label>Whatsapp Number</label><br>
+			<input type="tel" name="jwh" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{10}"> <!--pattern="[A-Za-z0-9]"> -->	<br><br>
+			<label>Date Of Birth</label><br>
+			<input type="text" required onfocus="(this.type='date')"> <br><br>
+			</div>
+			<button class="reg" onclick="#"> <span> DONE </span> </button><br>
+		</form>
+	</fieldset>
+</body>
+</html>

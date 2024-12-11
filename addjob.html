@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JOB POSTING</title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="addjob.css">
+
+	<style type="text/css">
+		.h{
+		  color: #056E66;
+			background-color: ghostwhite;
+			border:ghostwhite 5px solid;
+			border-right: none;
+			font-weight: bold;
+			border-top-left-radius: 20%;
+			border-bottom-left-radius: 20%;
+			padding-right: 50.9%;
+			padding-top: 7%;
+			padding-bottom: 7%;
+			pointer-events: none;
+		}
+	</style>
+</head>
+<body class="box">
+	<img src="images/lg1.png" height="70" width="110" class="logo"></img>
+	<a class="exit" href="index.html"> LOG OUT </a> 
+	<div class="box1">
+		<div class="container">
+			<br><br>
+		
+			<ul>
+                <li ><a href="cmainpg.html"> Home </a> </li>			
+				<li><a class="h" href="post_job.php" target="blank"> Post Jobs </a> </li>
+				<li><a  href="apply_can.php" target="blank"> Applied candidate </a> </li>
+				<li><a  href="selected.php" target="blank"> Selected candidate </a> </li>
+				<li><a  href="rejected.php" target="blank"> Rejected candidate </a> </li>
+	 		</ul>
+	
+	 	</div>
+	 	<fieldset>
+	 		<legend><h2><b> POST JOB </b></h2></legend>
+	 	
+	 	<form method="POST" action="ajob.php">
+	 		
+	 		<div class="box2">
+	 		<br>
+             <input type="text" name="t" required placeholder="Job Title"> 
+             <br><br>
+             <input type="text" name="v" required placeholder="Total Vacancy"> 
+             <br><br>
+             <input type="text" name="q" required placeholder="Job Qualification"> 
+             <br><br>
+             <input type="text" name="s" required placeholder="Job Salary"> 
+             <br><br>
+			</div>
+
+			<div class="box3">
+				<br>
+                <textarea name="d" required placeholder="Job Description" rows="5" ></textarea><br>
+			</div>
+			<button class="reg"> <span> Post </span> </button><br><br>
+		</form>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> JOBSEEKER DETAILS </title>
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="jdt.css">
+</head>
+<body class="container">
+		<img src="images/lg1.png" height="70" width="120" class="logo"></img>
+		<h1>J-O-B MEMBER DETAILS</h1>
+	
+		<form action="jdt.php" method="POST">
+			<div class="box">
+			<br>
+			<input type="text" name="jname" required placeholder="Name" pattern="[A-Za-z0-9].{3,25}">  
+			<br><br>
+			<textarea name="address" placeholder="Address" rows="3" pattern="regexp=^[A-Za-z-0-99999999'"></textarea><br><br>
+			<input type="text" name="jcity" required placeholder="City" pattern="[A-Za-z].{3,}"> 
+			<br><br>
+			<input type="email" name="jemail" required placeholder="E-Mail Id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br><br>
+			<input type="tel" name="jno" required placeholder="Phone Number" pattern="[0-9]{10}" ><br><br>	
+			<input type="tel" name="jwh" required placeholder="Whatsapp Number" pattern="[0-9]{10}" ><br><br>	
+			
+			
+		</div>
+		<div class="box1">
+			<br><br>
+			<input type="text" name="jq" required placeholder="Qualification" pattern="[A-Za-z0-9].{4,25}"><br><br>
+
+			<select name="jgen" required >
+						<option disabled selected hidden> Gender </option>
+						<option value="male"> Male </option>
+						<option value="female"> Female </option>
+						
+					</select><br><br>
+			<input type="text" name="dob" required placeholder="Date Of Birth" onfocus="(this.type='date')">  <br><br>
+			<input type="Number" name="jyr" min="2000" max="2024" required placeholder="Year Of Passing">
+			<br><br>
+			<select name="exp" required>
+					<option disabled selected hidden> Experience </option>
+					<option value="fresher"> Fresher </option>
+					<option value="3yrs"> 3yrs </option>
+					<option value="4-5 yrs"> 4-5 yrs </option>
+					<option value="6-8 yrs"> 6-8 yrs </option>
+					<option value="More Than 8yrs"> More Than 8yrs </option> 
+				</select><br><br>
+		<label for="resume"> Upload 10th, 12th, UG, PG Certificate and Resume in a PDF file <br>
+		<input type="file" name="jres" required accept="application/pdf" multiple>  <br><br>
+		</label>
+			<button class="reg"> <span> SUBMIT </span> </button><br><br>
+		</div>
+		<br><br>
+		</form>
+	
+	<div class="img1">
+		<img src="images/jd1.png" height="500" width="600"></img></div>
+	<div class="img2">
+		<img src="images/jd.png" height="590" width="620"></img></div>
+</body>
+</html>
